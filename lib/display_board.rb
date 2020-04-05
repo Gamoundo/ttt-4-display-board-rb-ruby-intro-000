@@ -23,5 +23,6 @@ def display_board(board, array)
   cell4[0] = array[6]
   cell4[1] = array[7]
   cell4[2] = array[8]
+puts board
   print board
 end
