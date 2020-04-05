@@ -1,19 +1,20 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-def board
- cell = ["   ", "   ", "   "]
-cell2 = cell.*("|")
-cell3 = cell2
-cell4 = cell3
-  puts [cell2, "-----------" ]
-  puts [cell3, "-----------" ]
-  puts cell4
 
-
-
-end
 
 def display_board(board, array)
+  def board
+   cell = ["   ", "   ", "   "]
+  cell2 = cell.*("|")
+  cell3 = cell2
+  cell4 = cell3
+    puts [cell2, "-----------" ]
+    puts [cell3, "-----------" ]
+    puts cell4
+
+
+
+  end
   cell2[0] = array[0]
   cell2[1] = array[1]
   cell2[2] = array[2]
