@@ -13,7 +13,7 @@ cell4 = cell3
 
 end
 
-def display_board(board, array)do
+def display_board(board, array)
   cell2[0] = array[0]
   cell2[1] = array[1]
   cell2[2] = array[2]
@@ -25,4 +25,3 @@ def display_board(board, array)do
   cell4[2] = array[8]
   print board
 end
-  
